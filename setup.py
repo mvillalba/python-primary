@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'primary=primary.cli.main',
+            'primary=primary.cli:main',
         ],
     },
     classifiers=[
